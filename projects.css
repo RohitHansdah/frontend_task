@@ -1,0 +1,97 @@
+.maindiv
+{
+    background-color: #282C34;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+
+.banner
+{
+    position: absolute;
+    left:40vw;
+    top: 1px;
+    width: 681px;
+    height: 42px;
+    color:#ffffff;
+    font-size:50px;
+}
+.linkpanel
+{
+    cursor: pointer;
+    cursor: hand;
+    color:#ffffff;
+    position: absolute;
+    right: 16px;
+    top: 8px;
+    height: 42px;
+    line-height: 42px;
+}
+
+.contentdiv
+{
+    position: absolute;
+    color: #000000;
+    left: 40vw;
+    right: 40vw;
+    top: 10vh;
+    bottom: 16px;
+    font-family: Courier, monospace;
+    font-weight: bold;
+    background-color: #FFFFFF;
+    overflow: auto;
+    padding: 8px;
+}
+
+A:link {text-decoration: none; color:#282C34; outline : none; border : 0;}
+A:visited {text-decoration: none; color:#282C34; outline : none; border : 0;}
+A:active {text-decoration: none; color:#282C34; outline : none; border : 0;}
+A:hover {text-decoration: underline; color:#282C34; outline : none; border : 0;}
+
+
+.roundcorners
+{
+	background: #FFFFFF;
+	border:2px solid #404040;
+    border-radius: 4px 4px 4px 4px;
+}
+
+table
+{
+    border-collapse: collapse;
+}
+
+td
+{
+    border: 1px solid #000000;
+    padding: 4px;
+    font-family: sans-serif;
+    font-size: small;
+    color: #202020;
+}
+
+th
+{
+    border: 1px solid #000000;
+    padding: 4px;
+    font-family: sans-serif;
+    font-size: small;
+    color: #FFFFFF;
+    font-weight: bold;
+    background-color: #282C34;
+}
+
+caption
+{
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px 1px 0px 1px;
+    padding: 4px;
+    font-family: sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #282C34;
+}
